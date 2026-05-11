@@ -1,0 +1,24 @@
+header{
+    background-color: #ffff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
