@@ -36,3 +36,43 @@ a{
     color: #333;
     font-weight: bold;
 }
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20pc;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.card{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-corpo {
+    padding: 12px;
+}
+
+.card-corpo h3{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.card-corpo p{
+    font-size:13px;
+    color: #555;
+    margin-bottom: 12px;
+}
